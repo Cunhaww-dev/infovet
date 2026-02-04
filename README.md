@@ -1,10 +1,3 @@
-Segue um **README básico, limpo e alinhado com o estado atual real do projeto**.
-Ele documenta **o que já existe**, **o propósito do Infovet** e **o que vem a seguir**, sem prometer o que ainda não foi feito.
-
-Você pode copiar e colar direto no `README.md`.
-
----
-
 # Infovet 🐾
 
 Infovet é um sistema web de **prontuário eletrônico para médicos veterinários**, focado em organizar pacientes, atendimentos e histórico clínico de forma simples, rápida e eficiente.
@@ -115,12 +108,6 @@ Ainda **não há regras de negócio, autenticação ou persistência de dados** 
 ## 📌 Observações
 
 Este projeto está sendo construído com foco em **clareza arquitetural**, **boas práticas** e **facilidade de evolução**, evitando acoplamentos prematuros e decisões irreversíveis no início.
-
----
-
-Se quiser, no próximo passo posso:
-
-- revisar esse README como se fosse para um repositório público
 - ajudar a escrever **CONTRIBUTING.md**
 - ou já partir direto para a **primeira tela real (Pacientes)**
 
