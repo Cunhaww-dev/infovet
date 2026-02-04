@@ -40,7 +40,6 @@ src/
 │
 ├─ components/
 │  ├─ ui/               # Componentes base do shadcn/ui
-│  ├─ atoms/
 │  ├─ molecules/
 │  ├─ organisms/
 │  ├─ app-sidebar.tsx   # Sidebar principal da aplicação
@@ -82,7 +81,7 @@ Ainda **não há regras de negócio, autenticação ou persistência de dados** 
 
 ## 🔜 Próximos Passos
 
-### 1️⃣ Estrutura de Rotas
+### Estrutura de Rotas
 
 - Criar as rotas principais do sistema:
   - `/pacientes`
@@ -90,13 +89,13 @@ Ainda **não há regras de negócio, autenticação ou persistência de dados** 
   - `/agenda`
   - `/atendimentos/novo`
 
-### 2️⃣ Ajustes no Layout da Sidebar
+### Ajustes no Layout da Sidebar
 
 - Refinar estilos e variantes dos botões
 - Ajustar estados ativos e UX
 - Consolidar navegação conforme o domínio veterinário
 
-### 3️⃣ Criação das Telas do Sistema
+###  Criação das Telas do Sistema
 
 - Tela de listagem de pacientes
 - Ficha do paciente (prontuário)
