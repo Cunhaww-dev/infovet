@@ -29,7 +29,8 @@ import {
   SidebarHeader,
   SidebarRail,
 } from '@/components/ui/sidebar';
-import { NavSingle } from './molecules/sidebar/nav-single';
+import { NavSingle } from '../../molecules/sidebar/nav-single';
+import { Logo } from '@/components/ui/logo';
 
 const data = {
   user: {
@@ -40,7 +41,7 @@ const data = {
   teams: [
     {
       name: 'InfoVet',
-      logo: GalleryVerticalEnd,
+      logo: '/infovet_horizontal_logo.svg',
       plan: 'Prontuário Veterinário',
     },
   ],
@@ -177,7 +178,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible='icon' {...props}>
       <SidebarHeader>
-        <TeamSwitcher teams={data.teams} />
+        <Logo />
       </SidebarHeader>
       <SidebarContent>
         <NavSingle items={data.navSingle} label='Geral' />
