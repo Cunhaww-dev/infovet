@@ -1,10 +1,3 @@
-Segue um **README básico, limpo e alinhado com o estado atual real do projeto**.
-Ele documenta **o que já existe**, **o propósito do Infovet** e **o que vem a seguir**, sem prometer o que ainda não foi feito.
-
-Você pode copiar e colar direto no `README.md`.
-
----
-
 # Infovet 🐾
 
 Infovet é um sistema web de **prontuário eletrônico para médicos veterinários**, focado em organizar pacientes, atendimentos e histórico clínico de forma simples, rápida e eficiente.
@@ -47,7 +40,6 @@ src/
 │
 ├─ components/
 │  ├─ ui/               # Componentes base do shadcn/ui
-│  ├─ atoms/
 │  ├─ molecules/
 │  ├─ organisms/
 │  ├─ app-sidebar.tsx   # Sidebar principal da aplicação
@@ -89,7 +81,7 @@ Ainda **não há regras de negócio, autenticação ou persistência de dados** 
 
 ## 🔜 Próximos Passos
 
-### 1️⃣ Estrutura de Rotas
+### Estrutura de Rotas
 
 - Criar as rotas principais do sistema:
   - `/pacientes`
@@ -97,13 +89,13 @@ Ainda **não há regras de negócio, autenticação ou persistência de dados** 
   - `/agenda`
   - `/atendimentos/novo`
 
-### 2️⃣ Ajustes no Layout da Sidebar
+### Ajustes no Layout da Sidebar
 
 - Refinar estilos e variantes dos botões
 - Ajustar estados ativos e UX
 - Consolidar navegação conforme o domínio veterinário
 
-### 3️⃣ Criação das Telas do Sistema
+###  Criação das Telas do Sistema
 
 - Tela de listagem de pacientes
 - Ficha do paciente (prontuário)
@@ -115,12 +107,6 @@ Ainda **não há regras de negócio, autenticação ou persistência de dados** 
 ## 📌 Observações
 
 Este projeto está sendo construído com foco em **clareza arquitetural**, **boas práticas** e **facilidade de evolução**, evitando acoplamentos prematuros e decisões irreversíveis no início.
-
----
-
-Se quiser, no próximo passo posso:
-
-- revisar esse README como se fosse para um repositório público
 - ajudar a escrever **CONTRIBUTING.md**
 - ou já partir direto para a **primeira tela real (Pacientes)**
 
